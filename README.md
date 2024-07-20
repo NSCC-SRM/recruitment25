@@ -36,3 +36,15 @@ npm run dev
 # OR
 yarn dev
 ```
+
+### Branching
+1. Open your terminal or command prompt in your code editor.
+2. Create a new branch and switch to it.
+   ```
+   git checkout -b new-branch-name
+   ```
+3. Push the branch to GitHub:
+   ```
+   git push -u origin branch-name
+   ```
+Format for naming branch: ``` type/issue-id-short-description ```
