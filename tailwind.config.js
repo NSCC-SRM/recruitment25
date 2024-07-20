@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'rt1': '#56CAD1', // Replace with your desired color
+      },
+      fontFamily: {
+        roboto: ['Roboto Condensed', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
