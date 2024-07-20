@@ -20,8 +20,8 @@ export default function Footer() {
                     <div className='flex flex-row items-center gap-2'>
                         <FaPhoneAlt className='w-[38px] h-[38px]' />
                         <div className='text-[24px]'>
-                            +91 1234567890<br />
-                            +91 1234567890
+                        +91 98376 38743<br />
+                            +91 99106 18509
                         </div>
                     </div>
 
