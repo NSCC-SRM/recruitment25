@@ -1,0 +1,37 @@
+.countdown-container {
+    background: linear-gradient(to bottom, #5ba2ba, #183d4b);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    box-sizing: border-box;
+  }
+  
+  .countdown-timer {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .timer-unit {
+    margin: 0 5px;
+  }
+  
+  .timer-label {
+    color: #53A6AD;
+  }
+  
+  @media (max-width: 600px) {
+    .countdown-container {
+      padding: 15px;
+      font-size: 14px;
+    }
+  }
+  
