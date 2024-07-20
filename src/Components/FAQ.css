@@ -3,7 +3,7 @@
 .main h1{
     color: white;
     font-weight: 700;
-    font-size: 5vh;
+    font-size: 4vh;
 }
 
 .sections{
@@ -72,6 +72,6 @@
     border-color: #646cff;
   }
   .sections button:focus,
-  button:focus-visible {
+  .sections button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
   }
