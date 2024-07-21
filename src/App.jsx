@@ -2,12 +2,12 @@
 
 import Navbar from './Components/Navbar'
 import Hero from './Components/HeroSection'
+import Countdown from './Components/Countdown'
 import Domains from './Components/Domains'
-import WhoWeAre from './Components/WhoWeAre'
 import FAQ from './Components/FAQ'
 import Timeline from './Components/Timeline'
 import Footer from './Components/Footer'
-
+import WhoWeAre from './Components/WhoWeAre/WhoWeAre'
 
 function App() {
   
@@ -16,8 +16,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Countdown/>
       <Domains />
-      <WhoWeAre />
+      <WhoWeAre/>
       <Timeline />
       <FAQ />
       <Footer />
