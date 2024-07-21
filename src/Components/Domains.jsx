@@ -15,13 +15,12 @@ export default function Domains() {
 
     return (
         <>
-            <div className="bg-yellow-400 text-white">Domains</div>
             <p className="Domain">Domains</p>
             <div className="cards">
                 <div className="card">
                     <div className="card-content">
                         {expandedCard === 'technical' ? (
-                            <div className="content" onClick={(e) => handleContentClick(e, 'technical')}>
+                            <div className="text" onClick={(e) => handleContentClick(e, 'technical')}>
                                 <p id='technical-card'>
                                     Enter a realm where technical innovation soars with unmatched strength and agility. Engage in cutting-edge design, dynamic media, and event engineering, forging solutions that push boundaries. Join us in harnessing the power of creativity and technical expertise to shape the future of technology.
                                 </p>
@@ -38,7 +37,7 @@ export default function Domains() {
                 <div className="card">
                     <div className="card-content">
                         {expandedCard === 'nonTechnical' ? (
-                            <div className="content" onClick={(e) => handleContentClick(e, 'nonTechnical')}>
+                            <div className="text" onClick={(e) => handleContentClick(e, 'nonTechnical')}>
                                 <p id="non-technical-card">
                                     Welcome to our dynamic hub where creativity and strategy excel. Our non-technical division thrives through strategic partnerships with businesses and organizations, focusing on securing sponsorships, organizing events, and fostering networking opportunities. This approach enriches our resources, boosts members' professional development, and creates pathways to internships, jobs.
                                 </p>
@@ -55,7 +54,7 @@ export default function Domains() {
                 <div className="card">
                     <div className="card-content">
                         {expandedCard === 'creatives' ? (
-                            <div className="content" onClick={(e) => handleContentClick(e, 'creatives')}>
+                            <div className="text" onClick={(e) => handleContentClick(e, 'creatives')}>
                                 <p id='creatives-card'>
                                     Explore a world where boundless innovation thrives. Our team crafts breathtaking designs, vibrant artwork, and dynamic media content. Unleash your creativity to collaborate on imaginative projects. Join us on this journey and let your ideas soar to new heights!
                                 </p>

@@ -31,13 +31,13 @@ body {
     height: 536px;
     text-align: center;
     padding: 20px;
-    transition: all 0.3s ease-in-out;
 }
 
 .card-content {
     position: relative;
     width: 100%;
     height: 100%;
+    
 }
 
 .card-image {
@@ -71,18 +71,16 @@ body {
     height: 60px;
 }
 
-.content {
-    font-size: 28px;
+.text{
+    font-size:26px ;
     text-align: left;
     margin: 1%;
 }
 
 #non-technical-card {
-    font-size: 25px;
-}
-
-#technical-card{
-    font-size: 27px;
+    font-size: 24px;
+    text-align: left;
+    margin: 1%;
 }
 
 #creatives-card {
@@ -108,17 +106,63 @@ body {
         font-size: 36px;
     }
 
-    .content {
-        font-size: 20px;
+    .text {
+        font-size: 19px;
         text-align: start;
     }
 
     #non-technical-card {
+        font-size: 17px;
+    }
+
+    .card-title {
+        font-size: 36px;
+    }
+
+    .button {
+        width: 80%;
+        height: 50px;
         font-size: 18px;
     }
 
-    #technical-card {
+    .Domain {
+        font-size: 48px;
+    }
+
+    .card-image {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+        position: relative;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 1050px) {
+    .cards {
+        align-items: center;
+        padding: 10px;
+    }
+
+    .card {
+        width: 320px;
+        height: 390px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .card-content {
+        padding: 10px;
+        font-size: 36px;
+    }
+
+    .text {
         font-size: 19px;
+        text-align: start;
+    }
+
+    #non-technical-card {
+        font-size: 17px;
     }
 
     .card-title {
