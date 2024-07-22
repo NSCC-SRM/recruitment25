@@ -32,6 +32,7 @@ body{
       align-items: center;
       box-sizing: border-box; 
       text-align: center;
+      overflow: hidden;
   }
   .outline_box img {
       position: absolute;
@@ -56,20 +57,34 @@ body{
       text-align: justify; 
       font-size: 2.5vh;
   }
-  
+
+
   /* Media Queries */
-  @media (max-width: 800px) {
-      .outline_box {
-        height: 60vh;
-        width: 80vh;
-      }
-      .content {
-        height: 55vh;
-        width: 65vh;
-        font-size: 2vh;
-      }
-      .head {
-        font-size: 4vh;
-      }
+
+@media (max-width: 320px) {
+    body {
+        background: linear-gradient(to right, #1E6F6F, #000000 20%, #1E6F6F);
     }
-  
+    .head {
+        font-size: 3vh;
+        padding: 10px;
+        margin-top: 1vh;
+    }
+    .outline_box {
+        height: 40vh; 
+        width: 90vw;
+        padding: 5px; 
+    }
+    .outline_box img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .content {
+        font-size: 1.3vh; 
+        padding: 1vh; 
+        overflow: auto;
+        width: 80%; 
+    }
+}
+
