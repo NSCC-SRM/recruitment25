@@ -56,10 +56,39 @@ body{
       align-items: center;
       text-align: justify; 
       font-size: 2.5vh;
+      box-sizing: border-box;
   }
 
 
   /* Media Queries */
+
+/* @media (max-width: 480px) {
+    body {
+        background: linear-gradient(to right, #1E6F6F, #000000 20%, #1E6F6F);
+    }
+    .head {
+        font-size: 3vh;
+        padding: 10px;
+        margin-top: 1vh;
+    }
+    .outline_box {
+        height: 40vh; 
+        width: 90vw;
+        padding: 5px; 
+    }
+    .outline_box img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .content {
+        font-size: 1.3vh; 
+        padding: 1vh; 
+        overflow: auto;
+        width: 80%; 
+    }
+} */
+
 
 @media (max-width: 320px) {
     body {
@@ -88,3 +117,58 @@ body{
     }
 }
 
+/* Media query for screens between 321px and 400px wide */
+@media (min-width: 321px) and (max-width: 400px) {
+    body {
+        background: linear-gradient(to right, #1E6F6F, #000000 25%, #1E6F6F);
+    }
+    .head {
+        font-size: 3.5vh;
+        padding: 12px;
+        margin-top: 1.5vh;
+    }
+    .outline_box {
+        height: 45vh; 
+        width: 92vw;
+        padding: 8px; 
+    }
+    .outline_box img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .content {
+        font-size: 1.6vh; 
+        padding: 1.2vh; 
+        overflow: auto;
+        width: 82%; 
+    }
+}
+
+/* Media query for screens between 401px and 768px wide (smartphones) */
+@media (min-width: 401px) and (max-width: 768px) {
+    body {
+        background: linear-gradient(to right, #1E6F6F, #000000 30%, #1E6F6F);
+    }
+    .head {
+        font-size: 4vh;
+        padding: 15px;
+        margin-top: 2vh;
+    }
+    .outline_box {
+        height: 50vh; 
+        width: 95vw;
+        padding: 10px; 
+    }
+    .outline_box img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .content {
+        font-size: 1.8vh; 
+        padding: 1.5vh; 
+        overflow: auto;
+        width: 85%; 
+    }
+}
