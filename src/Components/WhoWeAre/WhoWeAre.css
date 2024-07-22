@@ -110,7 +110,7 @@ body{
         object-fit: contain;
     }
     .content {
-        font-size: 1.3vh; 
+        font-size: 1vh; 
         padding: 1vh; 
         overflow: auto;
         width: 80%; 
