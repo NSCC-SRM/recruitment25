@@ -62,7 +62,7 @@ body{
 
 @media (min-width: 320px) and (max-width: 480px) {
     body {
-        background: linear-gradient(to right, #1E6F6F, #000000 20%, #1E6F6F);
+        background: linear-gradient(to right, #1E6F6F, #000000 50%, #1E6F6F);
     }
     .head {
         font-size: 3vh;
