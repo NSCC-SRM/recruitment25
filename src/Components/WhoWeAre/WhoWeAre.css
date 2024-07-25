@@ -63,6 +63,7 @@ body{
 @media (min-width: 320px) and (max-width: 480px) {
     body {
         background: linear-gradient(to right, #1E6F6F, #000000 50%, #1E6F6F);
+        min-height: 100vh;
     }
     .head {
         font-size: 3vh;
@@ -82,11 +83,11 @@ body{
         object-fit: contain;
     }
     .content {
-        font-size: 1.4vh; 
+        font-size: 1.3vh; 
         padding: 0.5vh; 
         overflow: hidden;
-        height: 90%;
-        width: 40vh; 
+        height: 80%;
+        width: 70vw; 
         box-sizing: border-box;
         text-align: justify;
     }
