@@ -81,41 +81,41 @@ const FAQ = () => {
 
     return (
         <div className='main'>
-            <div>
+            <div className='heading'>
                 <h1>Frequently Asked Questions</h1>
             </div>
             <div>
-                <div className='sections'>
+                <div className='sections' onClick={show1}>
                     <p>What is NSCC?</p>
-                    <button onClick={show1}>{arrow1}</button>
+                    <button>{arrow1}</button>
                 </div>
                 <div className='answers' id='a'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
-                <div className='sections'>
+                <div className='sections' onClick={show2}>
                     <p>What is NSCC?</p>
-                    <button onClick={show2}>{arrow2}</button>
+                    <button>{arrow2}</button>
                 </div>
                 <div className='answers' id='b'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
-                <div className='sections'>
+                <div className='sections' onClick={show3}>
                     <p>What is NSCC?</p>
-                    <button onClick={show3}>{arrow3}</button>
+                    <button>{arrow3}</button>
                 </div>
                 <div className='answers' id='c'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
-                <div className='sections'>
+                <div className='sections' onClick={show4}>
                     <p>What is NSCC?</p>
-                    <button onClick={show4}>{arrow4}</button>
+                    <button>{arrow4}</button>
                 </div>
                 <div className='answers' id='d'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
-                <div className='sections'>
+                <div className='sections' onClick={show5}>
                     <p>What is NSCC?</p>
-                    <button onClick={show5}>{arrow5}</button>
+                    <button>{arrow5}</button>
                 </div>
                 <div className='answers' id='e'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
