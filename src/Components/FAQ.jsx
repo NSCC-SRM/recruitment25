@@ -1,5 +1,4 @@
 import React from 'react'
-import angleup from '../assets/angle-down-solid.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import './FAQ.css'
