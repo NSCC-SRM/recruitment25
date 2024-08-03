@@ -24,11 +24,12 @@ const StyledVerticalTimelineElement = styled(VerticalTimelineElement)`
     @media (max-width: 599px) {
       display: flex;
       justifly-content: center;
-      // place-content: center;
-      // place-items: center
+      place-content: center;
+      place-items: center
       // align-content: center;
       // align-items: center;
       height: 32vh;
+      width: 60vw;
       
     }
   }
