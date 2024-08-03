@@ -19,7 +19,7 @@ export default function WhoWeAre() {
     const smallText = "Welcome to Newton School Coding Club SRM! We're proud to offer an excellent platform for students who want to do well in coding and technology. Our club has three parts: Technical, Creatives and Non-Technical. Each part helps you learn and grow in different ways.";
 
     return (
-        <>
+        <div id="community">
             <p className='head'>Who We Are!</p>
             <div className='whoweare_content'>
                 <div className='outline_box'>
@@ -29,6 +29,6 @@ export default function WhoWeAre() {
                     </p>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
