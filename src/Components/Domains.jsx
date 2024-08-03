@@ -14,7 +14,7 @@ export default function Domains() {
     };
 
     return (
-        <>
+        <div id='domains'>
             <p className="Domain">Domains</p>
             <div className="cards">
                 <div className="card">
@@ -69,6 +69,6 @@ export default function Domains() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

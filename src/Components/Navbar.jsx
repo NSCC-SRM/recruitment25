@@ -33,11 +33,11 @@ const Navbar = () => {
         </div>
 
         <div className={`sm:flex ${isOpen ? 'block' : 'hidden'}`}>
-          <a href="/" className="block sm:inline-block py-2 px-4 hover:text-gray-300">Home</a>
-          <a href="/domains" className="block sm:inline-block py-2 px-4 hover:text-gray-300">Domains</a>
-          <a href="/community" className="block sm:inline-block py-2 px-4 hover:text-gray-300">Community</a>
-          <a href="/timelines" className="block sm:inline-block py-2 px-4 hover:text-gray-300">Timelines</a>
-          <a href="/faq" className="block sm:inline-block py-2 px-4 hover:text-gray-300">FAQ</a>
+          <a href="#" className="block sm:inline-block py-2 px-4 hover:text-gray-300">Home</a>
+          <a href="#domains" className="block sm:inline-block py-2 px-4 hover:text-gray-300">Domains</a>
+          <a href="#community" className="block sm:inline-block py-2 px-4 hover:text-gray-300">Community</a>
+          <a href="#timeline" className="block sm:inline-block py-2 px-4 hover:text-gray-300">Timeline</a>
+          <a href="#faq" className="block sm:inline-block py-2 px-4 hover:text-gray-300">FAQ</a>
         </div>
       </div>
     </nav>

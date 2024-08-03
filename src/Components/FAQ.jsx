@@ -80,7 +80,7 @@ const FAQ = () => {
     }
 
     return (
-        <div className='main'>
+        <div className='main' id='faq'>
             <div className='heading'>
                 <h1>Frequently Asked Questions</h1>
             </div>

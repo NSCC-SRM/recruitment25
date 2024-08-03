@@ -6,6 +6,7 @@ import Timeline from './Components/Timeline'
 import Footer from './Components/Footer'
 import WhoWeAre from './Components/WhoWeAre/WhoWeAre'
 
+
 function App() {
   
 
@@ -13,7 +14,6 @@ function App() {
     <>
       <Navbar />
       <Hero />
-
       <Domains />
       <WhoWeAre/>
       <Timeline />
