@@ -16,14 +16,20 @@ const StyledVerticalTimelineElement = styled(VerticalTimelineElement)`
     border: 5px solid #56CAD1;
     font-weight: 600;
     display: flex;
+    justifly-content: center;
+    font-size: 22px;
     flex-direction: column;
+    border-radius: 30px;
 
-    @media (max-width: 576px) {
+    @media (max-width: 599px) {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vh;
-      padding-top: 50px;
+      justifly-content: center;
+      // place-content: center;
+      // place-items: center
+      // align-content: center;
+      // align-items: center;
+      height: 32vh;
+      
     }
   }
 `;
@@ -46,8 +52,7 @@ const Timeline = () => {
               <h3 className="vertical-timeline-element-title">
                 {element.title}
               </h3>
-              <h3 id="description">{element.description}</h3>
-
+              <h3 className="vertical-timeline-element-title">{element.description}</h3>
             </StyledVerticalTimelineElement>
           );
         })}

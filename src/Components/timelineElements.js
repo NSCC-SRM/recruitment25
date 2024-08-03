@@ -9,7 +9,7 @@ let timelineElements = [
       id: 2,
       title: "Date XX/XX/2024",
       description:
-        "Application Selection for Interview"
+        "Selection for Interview"
     },
     {
       id: 3,
