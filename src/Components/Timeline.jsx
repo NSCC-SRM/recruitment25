@@ -24,11 +24,13 @@ const StyledVerticalTimelineElement = styled(VerticalTimelineElement)`
     @media (max-width: 599px) {
       display: flex;
       justifly-content: center;
-      // place-content: center;
-      // place-items: center
+      place-content: center;
+      place-items: center;
       // align-content: center;
       // align-items: center;
       height: 32vh;
+      width: 60vw;
+      padding: 6em 3em !important;
       
     }
   }
@@ -52,6 +54,8 @@ const Timeline = () => {
               <h3 className="vertical-timeline-element-title">
                 {element.title}
               </h3>
+              <h3></h3>
+              <h3></h3>
               <h3 className="vertical-timeline-element-title">{element.description}</h3>
             </StyledVerticalTimelineElement>
           );
