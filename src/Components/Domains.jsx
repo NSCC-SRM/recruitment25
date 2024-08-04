@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Domain.css';
+import card from '/src/assets/Domain/card.png'
 
 export default function Domains() {
     const [expandedCard, setExpandedCard] = useState(null);
@@ -27,7 +28,7 @@ export default function Domains() {
                             </div>
                         ) : (
                             <>
-                                <img className="card-image" src='/src/assets/Domain/card.png' alt="Technical Domain" />
+                                <img className="card-image" src={card} alt="Technical Domain" />
                                 <h2 className="card-title">Technical</h2>
                                 <button className="button" onClick={() => handleToggle('technical')}>Know more</button>
                             </>
@@ -44,7 +45,7 @@ export default function Domains() {
                             </div>
                         ) : (
                             <>
-                                <img className="card-image" src='/src/assets/Domain/card.png' alt="Non-Technical Domain" />
+                                <img className="card-image" src={card} alt="Non-Technical Domain" />
                                 <h2 className="card-title" id='Non-technical-title'>Non-Technical</h2>
                                 <button className="button" onClick={() => handleToggle('nonTechnical')}>Know more</button>
                             </>
@@ -61,7 +62,7 @@ export default function Domains() {
                             </div>
                         ) : (
                             <>
-                                <img className="card-image" src='/src/assets/Domain/card.png' alt="Creatives Domain" />
+                                <img className="card-image" src={card} alt="Creatives Domain" />
                                 <h2 className="card-title">Creatives</h2>
                                 <button className="button" onClick={() => handleToggle('creatives')}>Know more</button>
                             </>
