@@ -12,6 +12,7 @@ const FAQ = () => {
     const [arrow3, setarrow3] = useState(<FontAwesomeIcon icon={faAngleDown} />);
     const [arrow4, setarrow4] = useState(<FontAwesomeIcon icon={faAngleDown} />);
     const [arrow5, setarrow5] = useState(<FontAwesomeIcon icon={faAngleDown} />);
+    const [arrow6, setarrow6] = useState(<FontAwesomeIcon icon={faAngleDown} />);
 
     function show1() {
         let element = document.getElementById('a');
@@ -78,6 +79,19 @@ const FAQ = () => {
             setarrow5(<FontAwesomeIcon icon={faAngleDown} />);
         }
     }
+    function show6() {
+        let element = document.getElementById('f');
+        if (check == "hidden") {
+            element.style.display = 'flex';
+            setCheck("show");
+            setarrow6(<FontAwesomeIcon icon={faAngleUp} />);
+        }
+        else {
+            element.style.display = 'none';
+            setCheck("hidden");
+            setarrow6(<FontAwesomeIcon icon={faAngleDown} />);
+        }
+    }
 
     return (
         <div className='main' id='faq'>
@@ -93,31 +107,38 @@ const FAQ = () => {
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
                 <div className='sections' onClick={show2}>
-                    <p>What is NSCC?</p>
+                    <p>What can one hope to gain from being a member of NSCC? </p>
                     <button>{arrow2}</button>
                 </div>
                 <div className='answers' id='b'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
                 <div className='sections' onClick={show3}>
-                    <p>What is NSCC?</p>
+                    <p> How is the club structured, and what are the roles and responsibilities of its members?</p>
                     <button>{arrow3}</button>
                 </div>
                 <div className='answers' id='c'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
                 <div className='sections' onClick={show4}>
-                    <p>What is NSCC?</p>
+                    <p>What are the primary goals and objectives of the NSCC?</p>
                     <button>{arrow4}</button>
                 </div>
                 <div className='answers' id='d'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
                 <div className='sections' onClick={show5}>
-                    <p>What is NSCC?</p>
+                    <p>What kind of non-technical skills are emphasized within the club?</p>
                     <button>{arrow5}</button>
                 </div>
                 <div className='answers' id='e'>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
+                </div>
+                <div className='sections' onClick={show6}>
+                    <p>How does the club support new members in getting acclimated and involved?</p>
+                    <button>{arrow6}</button>
+                </div>
+                <div className='answers' id='f'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eum, recusandae alias sit laudantium adipisci asperiores ad temporibus. Ad dignissimos provident saepe, rerum corrupti dicta id exercitationem fugiat voluptate quo.
                 </div>
             </div>
