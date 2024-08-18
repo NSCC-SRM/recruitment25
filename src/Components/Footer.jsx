@@ -11,7 +11,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 export default function Footer() {
     return (
         <>
-            <div className='text-white bg-black md:bg-gradient-to-r from-[#124a4a] to-[#000000] flex flex-col lg:flex-row md:justify-between gap-y-5 font-roboto md:px-[160px] w-full pt-10 md:pt-0'>
+            <div id='contact' className='text-white bg-black md:bg-gradient-to-r from-[#124a4a] to-[#000000] flex flex-col lg:flex-row md:justify-between md:content-center md:items-center gap-y-5 font-roboto md:px-[160px] w-full pt-10 md:pt-0 sm:h-[500px] py-12'>
                 
                 
                 <div className='flex flex-col justify-center items-center md:border-0 border-[4px] border-rt1 rounded-xl h-[266px] w-[264px] m-auto md:m-0'>
@@ -34,7 +34,7 @@ export default function Footer() {
 
 
                 <div className='flex flex-col gap-y-4 md:w-[220px] items-center justify-center'>
-                    <h1 className='text-rt1 text-[36px]'> Follow Us on: </h1>
+                    <h1 className='text-rt1 text-[34px]'> FOLLOW US:</h1>
                     <div className='flex gap-8 '>
 
                        <a href="https://www.instagram.com/nscc_srm/?hl=en" target='_blank'> <FaInstagram className='w-[42px] h-[42px]' /></a>
@@ -51,13 +51,13 @@ export default function Footer() {
 
                 </div>
 
-                <div className='invisible md:visible pt-8'>
+                <div className='hidden lg:flex flex-col pt-8'>
                     <h1 className='text-rt1 text-[36px] '> Links:</h1>
                     <div className='flex flex-col text-[24px]'>
                         <a href='#'>Home</a>
-                        <a href='#'>About Us</a>
-                        <a href='#'>Timeline</a>
-                        <a href='#'>Contact Us</a>
+                        <a href='#community'>About Us</a>
+                        <a href='#timeline'>Timeline</a>
+                        <a href='#contact'>Contact Us</a>
 
                     </div>
                 </div>

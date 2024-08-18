@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import './Countdown.css'; 
+import './Countdown.css';
 
 const Countdown = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-08-01") - +new Date();
+    const difference = +new Date("2024-08-28") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -11,14 +11,14 @@ const Countdown = () => {
         Days: Math.floor(difference / (1000 * 60 * 60 * 24)),
         Hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
         Minutes: Math.floor((difference / 1000 / 60) % 60),
-        Seconds: Math.floor((difference / 1000) % 60)
+        Seconds: Math.floor((difference / 1000) % 60),
       };
     } else {
       timeLeft = {
-        days: '00',
-        hours: '00',
-        minutes: '00',
-        seconds: '00'
+        Days: 0,
+        Hours: 0,
+        Minutes: 0,
+        Seconds: 0,
       };
     }
 
@@ -36,15 +36,22 @@ const Countdown = () => {
   });
 
   const padTimeUnit = (unit) => {
-    return unit < 10 ? `0${unit}` : unit;
+    return unit.toString().padStart(2, '0');
   };
 
   const timerComponents = [];
 
   Object.keys(timeLeft).forEach(interval => {
+    const paddedUnit = padTimeUnit(timeLeft[interval]);
+    const firstDigit = paddedUnit.charAt(0);
+    const secondDigit = paddedUnit.charAt(1);
+
     timerComponents.push(
       <span key={interval} className="timer-unit">
-        <span>{padTimeUnit(timeLeft[interval])}</span>
+        <span className='setting'>
+          <span className='timer-digits'>{firstDigit}</span>
+          <span className='timer-digits'>{secondDigit}</span>
+        </span>
         <span className="timer-label"> {interval} </span>
       </span>
     );
@@ -52,7 +59,7 @@ const Countdown = () => {
 
   return (
     <div className="countdown-container">
-      <h2 style={{ marginBottom: '10px' }}><b>COUNTDOWN BEGINS</b></h2>
+      <h2 style={{ margin: '2vh', letterSpacing:'2px', fontSize: '2vh' }}><b>RECRUITMENT BEGINS</b></h2>
       <div className="countdown-timer">
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
       </div>

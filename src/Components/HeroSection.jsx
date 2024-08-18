@@ -3,6 +3,7 @@ import React from 'react';
 import nscchome from '../assets/nscchome.png';
 import cube1 from '../assets/cube1.png';
 import cube2 from '../assets/cube2.png';
+import Emptycomp from './Emptycomp';
 
 const HeroSection = () => {
   const sectionStyle = {
@@ -28,15 +29,17 @@ const HeroSection = () => {
         
         <div className="absolute bottom-0 left-0 right-0 mb-[145px]"> {/* Adjust bottom margin as needed */}
     <Countdown className=""/>
+    <Emptycomp/>
   </div>
-        <a
-          href="https://lu.ma/3684aiyb"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-black border-2 border-white text-white px-12 py-4 mt-[155px] rounded-2xl hover:bg-gray-700 hover:text-gray-300 transition duration-300 text-xl"
-        >
-          Apply Here
-        </a>
+  <a
+  href="https://lu.ma/3684aiyb"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-black border-2 border-white text-white px-12 py-4 mt-[175px] rounded-2xl hover:bg-gray-700 hover:text-gray-300 transition duration-300 text-xl"
+>
+  Apply Here
+</a>
+
         
       </div>
 

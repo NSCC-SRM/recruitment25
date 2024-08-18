@@ -3,19 +3,22 @@ let timelineElements = [
       id: 1,
       title: "Date XX/XX/2024",
       description:
-        "Application Submission"
+        "Application Submission",
+      img: 'file'
     },
     {
       id: 2,
       title: "Date XX/XX/2024",
       description:
-        "Application Shortlist"
+        "Application Shortlist",
+      img: 'check'
     },
     {
       id: 3,
       title: "Date XX/XX/2024",
       description:
-        "Interview starts"
+        "Interview starts",
+      img: 'arrow'
     },
   ];
   
