@@ -1,8 +1,8 @@
 .countdown-container {
-    background: linear-gradient(to bottom, #5ba2ba, #183d4b);
+    background: transparent;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px; 
     display: inline-block;
     border-radius: 15px;
     position: absolute;
@@ -15,23 +15,60 @@
   }
   
   .countdown-timer {
-    font-size: 1.5em;
+    font-size: 2vh;
     display: flex;
     justify-content: center;
   }
   
   .timer-unit {
-    margin: 0 5px;
+    margin: 0 4px;
   }
   
   .timer-label {
-    color: #53A6AD;
+    color: white;
+  }
+
+  .abc{
+   height: 3vh; 
+  }
+
+  .timer-digits {
+    /* background-color: #56CAD1;  */
+    background: linear-gradient(to bottom, #5ba2ba, #183d4b);
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 2rem;
+    margin: 2px; 
+    display: inline-block;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 55px;
+    height: 7vh;
+  }
+
+  .setting{
+    display: flex;
   }
   
   @media (max-width: 600px) {
     .countdown-container {
       padding: 15px;
       font-size: 14px;
+    }
+  }
+
+  @media (max-width: 360px){
+    .timer-digits{
+      width: 3.5vh;
+      height: 5.5vh;
+      display: flex;
+      padding: 10px;
+      justify-content: center;
+      align-items: center; 
+    }
+    .timer-digits {
+      font-size: 1.5rem;
     }
   }
   
