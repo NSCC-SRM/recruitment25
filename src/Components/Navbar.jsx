@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center">
           <img src={nsccnavbar} alt="NSCC Navbar Logo" className="h-10 mr-2 sm:mr-4" />
-          <span className="font-bold text-xl hidden md:flex">NSCC</span>
+          <a href=""><span className="font-bold text-xl hidden md:flex">NSCC SRM</span></a>
         </div>
 
         <div className="flex sm:hidden">
