@@ -20,7 +20,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center relative z-10">
         <img src={nscchome} alt="Newton School Coding Club" className="h-64 sm:h-80 mb-4" />
         <h1 className="text-4xl sm:text-6xl font-bold text-center leading-tight sm:leading-snug">
-          Newton School Coding Club 
+          Newton School Coding Club SRM
         </h1>
 
         {/* <p className="text-2xl text-center text-cyan-400 mt-4">
