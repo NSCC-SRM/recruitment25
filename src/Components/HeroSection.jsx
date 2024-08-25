@@ -52,7 +52,7 @@ const HeroSection = () => {
               type="button"
               data-luma-action="checkout"
               data-luma-event-id="evt-Uf3kMJqu4HN88NM"
-              style={{ backgroundColor: '#719ee7', borderColor: 'white', color: 'white' }}
+              style={{ backgroundColor: '#719ee7', borderColor: 'white', color: 'white ' }}
             >
               Apply Here
             </button>
