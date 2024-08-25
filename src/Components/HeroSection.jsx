@@ -4,6 +4,7 @@ import nscchome from '../assets/nscchome.png';
 import cube1 from '../assets/cube1.png';
 import cube2 from '../assets/cube2.png';
 import Emptycomp from './Emptycomp';
+import { Animated } from 'react-animated-css';
 
 const HeroSection = () => {
   useEffect(() => {
@@ -39,20 +40,23 @@ const HeroSection = () => {
           {/* <p className="text-2xl text-center text-cyan-400 mt-4">
             SRMIST Coder's Vertex 
           </p> */}
-          
+
           <div className="absolute bottom-0 left-0 right-0 mb-[145px]"> {/* Adjust bottom margin as needed */}
             <Countdown className="" />
             <Emptycomp />
           </div>
-          
-          <button
-            className="bg-black border-2 border-white text-white px-12 py-4 mt-[175px] rounded-2xl bg-black hover:text-gray-300 transition duration-300 text-xl luma-checkout--button"
-            type="button"
-            data-luma-action="checkout"
-            data-luma-event-id="evt-Uf3kMJqu4HN88NM"
-          >
-            Apply Here
-          </button>
+
+          <Animated animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
+            <button
+              className="bg- border-2 border-white text-white px-12 py-4 mt-[175px] rounded-2xl hover:bg-white  transition duration-300 text-xl luma-checkout--button shadow-lg transform hover:scale-105 font-bold"
+              type="button"
+              data-luma-action="checkout"
+              data-luma-event-id="evt-Uf3kMJqu4HN88NM"
+              style={{ backgroundColor: '#719ee7', borderColor: 'white', color: 'white' }}
+            >
+              Apply Here
+            </button>
+          </Animated>
         </div>
 
         <div className="hidden md:block">
