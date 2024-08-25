@@ -3,7 +3,11 @@
     color: white;
     text-align: center;
     padding: 20px; 
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     border-radius: 15px;
     position: absolute;
     top: 40%;
@@ -26,10 +30,11 @@
   
   .timer-label {
     color: white;
+    font-size: 20px;
   }
 
   .abc{
-   height: 3vh; 
+   height: 2vw; 
   }
 
   .timer-digits {
@@ -44,7 +49,7 @@
     justify-content: center;
     align-items: center; 
     padding-bottom: 55px;
-    height: 7vh;
+    height: 2vw;
   }
 
   .setting{

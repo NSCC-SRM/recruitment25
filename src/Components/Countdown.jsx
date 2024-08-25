@@ -59,7 +59,7 @@ const Countdown = () => {
 
   return (
     <div className="countdown-container">
-      <h2 style={{ margin: '2vh', letterSpacing:'2px', fontSize: '2vh' }}><b>RECRUITMENT BEGINS</b></h2>
+      <h2 style={{ margin: '1vw', letterSpacing:'2px', fontSize: '20px' }}><b>RECRUITMENT BEGINS</b></h2>
       <div className="countdown-timer">
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
       </div>
