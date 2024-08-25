@@ -40,7 +40,7 @@ const HeroSection = () => {
             SRMIST Coder's Vertex 
           </p> */}
           
-          <div className="absolute bottom-0 left-0 right-0 mb-[145px]"> {/* Adjust bottom margin as needed */}
+          <div className="absolute bottom-0 left-0 right-0 mb-[125px]"> {/* Adjust bottom margin as needed */}
             <Countdown className="" />
             <Emptycomp />
           </div>
