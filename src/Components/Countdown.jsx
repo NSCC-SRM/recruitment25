@@ -3,8 +3,10 @@ import './Countdown.css';
 
 const Countdown = () => {
   const calculateTimeLeft = () => {
+
     const targetDate = new Date("2024-08-26T21:00:00"); // 26 August 2024, 9:00 PM close time:-  2024-09-05T21:00:00
     const difference = targetDate - new Date();
+
     let timeLeft = {};
 
     if (difference > 0) {
