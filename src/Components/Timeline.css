@@ -8,11 +8,17 @@
   align-items: center;
 }
 
+
 .title {
   text-align: center;
   color: white;
   font-weight: 700;
   font-size: 5vh;
+}
+@media (min-width: 950px) and (max-width: 1000px) {
+  .title{
+    font-size: 6vw;
+  }
 }
 
 h3 {

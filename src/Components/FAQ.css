@@ -28,6 +28,11 @@
     border: 3px solid #423F3F;
 }
 
+@media (min-width: 950px) and (max-width: 1000px) {
+    .heading h1{
+        font-size: 6vw;
+    }
+}
 .sections:hover{
     background-color: #131212;
 }
