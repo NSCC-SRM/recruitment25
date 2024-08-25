@@ -11,10 +11,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 export default function Footer() {
     return (
         <>
-            <div id='contact' className='text-white bg-black md:bg-gradient-to-r from-[#124a4a] to-[#000000] flex flex-col lg:flex-row md:justify-between md:content-center md:items-center gap-y-5 font-roboto md:px-[160px] w-full pt-10 md:pt-0 sm:h-[200px] py-12'>
+            <div id='contact' className='text-white bg-black md:bg-gradient-to-r from-[#124a4a] to-[#000000] flex flex-col md:flex-row md:justify-between md:content-center md:items-center gap-y-5 font-roboto md:px-[160px] w-full pt-10 md:pt-0 sm:h-[200px] py-12'>
 
 
-                <div className='flex flex-col justify-center items-center md:border-0 border-[4px] border-rt1 rounded-xl h-[266px] w-[264px] m-auto md:m-0'>
+                <div className='flex flex-col justify-center items-center md:border-0 border-[4px] border-rt1 rounded-xl h-[200px] w-[264px] m-auto md:m-0'>
                     <h1 className='text-rt1 text-[28px]'> Contact: </h1>
 
                     <div className='flex align-items-center items-center gap-2'>

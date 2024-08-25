@@ -3,11 +3,11 @@ import './WhoWeAre.css';
 import WhoWeAre_outline from '../../assets/WhoWeAre.png';
 
 export default function WhoWeAre() {
-    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 480);
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1000);
 
     useEffect(() => {
         const handleResize = () => {
-            setIsSmallScreen(window.innerWidth <= 480);
+            setIsSmallScreen(window.innerWidth <= 1000);
         };
 
         window.addEventListener('resize', handleResize);
