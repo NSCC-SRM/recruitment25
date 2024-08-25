@@ -48,7 +48,7 @@ const HeroSection = () => {
           </div>
           
           <button
-            className="bg-black border-2 border-white text-white px-12 py-4 mt-[175px] rounded-2xl hover:bg-black hover:text-gray-300 transition duration-300 text-xl luma-checkout--button"
+            className="bg-black border-2 border-white text-white px-12 py-4 mt-[175px] rounded-2xl bg-black hover:text-gray-300 transition duration-300 text-xl luma-checkout--button"
             type="button"
             data-luma-action="checkout"
             data-luma-event-id="evt-Uf3kMJqu4HN88NM"
