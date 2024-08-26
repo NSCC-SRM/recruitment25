@@ -3,7 +3,7 @@ import './Countdown.css';
 
 const Countdown = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-08-27") - +new Date();
+    const difference = +new Date("2024-09-05") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -59,7 +59,7 @@ const Countdown = () => {
 
   return (
     <div className="countdown-container">
-      <h2 style={{ margin: '1vw', letterSpacing:'2px', fontSize: '20px' }}><b>RECRUITMENT BEGINS</b></h2>
+      <h2 style={{ margin: '1vw', letterSpacing:'2px', fontSize: '20px' }}><b>RECRUITMENT CLOSES IN </b></h2>
       <div className="countdown-timer">
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
       </div>

@@ -39,20 +39,21 @@ const HeroSection = () => {
           {/* <p className="text-2xl text-center text-cyan-400 mt-4">
             SRMIST Coder's Vertex 
           </p> */}
-          
+
           <div className="absolute bottom-0 left-0 right-0 mb-[125px]"> {/* Adjust bottom margin as needed */}
             <Countdown className="" />
             <Emptycomp />
           </div>
-          
+
           <button
-            className="bg-black border-2 border-white text-white px-12 py-4 mt-[175px] rounded-2xl hover:bg-black hover:text-gray-300 transition duration-300 text-xl luma-checkout--button"
+            className="bg-gradient-to-r from-green-500 via-green-500 to-green-500 border-2 border-transparent text-white px-12 py-4 mt-[175px] rounded-2xl hover:bg-gradient-to-r hover:from-gray-500 hover:via-gray-500 hover:to-gray-500 transition duration-300 text-xl luma-checkout--button"
             type="button"
             data-luma-action="checkout"
             data-luma-event-id="evt-Uf3kMJqu4HN88NM"
           >
             Apply Here
           </button>
+
         </div>
 
         <div className="hidden md:block">

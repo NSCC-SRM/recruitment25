@@ -11,10 +11,12 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white py-4 fixed z-10 w-full">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-        <div className="flex items-center">
-          <img src={nsccnavbar} alt="NSCC Navbar Logo" className="h-10 mr-2 sm:mr-4" />
-          <a href=""><span className="font-bold text-xl hidden md:flex">NSCC SRM</span></a>
-        </div>
+        <a href="https://www.instagram.com/nscc_srm/?hl=en" target='__blank'>
+          <div className="flex items-center">
+            <img src={nsccnavbar} alt="NSCC Navbar Logo" className="h-10 mr-2 sm:mr-4" />
+            <span className="font-bold text-xl hidden md:flex">NSCC SRM</span>
+          </div>
+        </a>
 
         <div className="flex sm:hidden">
           <button onClick={toggleMenu} className="text-white hover:text-gray-300 focus:outline-none">

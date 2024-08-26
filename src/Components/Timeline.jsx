@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import './Timeline.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileLines, faCircleCheck, faPeopleArrows, faNewspaper, faFile } from '@fortawesome/free-solid-svg-icons';
+import { faFileLines, faCircleCheck, faPeopleArrows, faNewspaper, faFile, faBullhorn, faHandHoldingHand } from '@fortawesome/free-solid-svg-icons';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -63,8 +63,10 @@ const StyledVerticalTimelineElement = styled(VerticalTimelineElement)`
 
 const iconMapping = {
   file: faFile,
+  hand: faHandHoldingHand,
   check: faCircleCheck,
-  arrow: faPeopleArrows
+  arrow: faPeopleArrows,
+  speak: faBullhorn
 };
 
 
