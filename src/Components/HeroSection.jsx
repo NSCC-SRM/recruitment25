@@ -45,18 +45,15 @@ const HeroSection = () => {
             <Countdown className="" />
             <Emptycomp />
           </div>
+          <button
+            className="bg-gradient-to-r from-green-500 via-green-500 to-green-500 border-2 border-transparent text-white px-12 py-4 mt-[175px] rounded-2xl hover:bg-gradient-to-r hover:from-gray-500 hover:via-gray-500 hover:to-gray-500 transition duration-300 text-xl luma-checkout--button"
+            type="button"
+            data-luma-action="checkout"
+            data-luma-event-id="evt-Uf3kMJqu4HN88NM"
+          >
+            Apply Here
+          </button>
 
-          <Animated animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
-            <button
-              className="bg- border-2 border-white text-white px-12 py-4 mt-[175px] rounded-2xl hover:bg-white  transition duration-300 text-xl luma-checkout--button shadow-lg transform hover:scale-105 font-bold"
-              type="button"
-              data-luma-action="checkout"
-              data-luma-event-id="evt-Uf3kMJqu4HN88NM"
-              style={{ backgroundColor: '#719ee7', borderColor: 'white', color: 'white ' }}
-            >
-              Apply Here
-            </button>
-          </Animated>
         </div>
 
         <div className="hidden md:block">
