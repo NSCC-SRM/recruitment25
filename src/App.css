@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-gray-200; /* Track color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply rounded bg-[#56CAD1]; /* Thumb color (rgb(86, 202, 209)) */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#3FA4A9]; /* Darker thumb color on hover */
+}

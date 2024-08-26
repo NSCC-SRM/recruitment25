@@ -4,6 +4,7 @@ import nscchome from '../assets/nscchome.png';
 import cube1 from '../assets/cube1.png';
 import cube2 from '../assets/cube2.png';
 import Emptycomp from './Emptycomp';
+import { Animated } from 'react-animated-css';
 
 const HeroSection = () => {
   useEffect(() => {
@@ -44,7 +45,6 @@ const HeroSection = () => {
             <Countdown className="" />
             <Emptycomp />
           </div>
-
           <button
             className="bg-gradient-to-r from-green-500 via-green-500 to-green-500 border-2 border-transparent text-white px-12 py-4 mt-[175px] rounded-2xl hover:bg-gradient-to-r hover:from-gray-500 hover:via-gray-500 hover:to-gray-500 transition duration-300 text-xl luma-checkout--button"
             type="button"
