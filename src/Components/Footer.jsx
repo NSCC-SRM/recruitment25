@@ -20,7 +20,7 @@ export default function Footer() {
                     <div className='flex align-items-center items-center gap-2'>
 
                         <IoMdMail className='w-[32px] h-[30px]' />
-                        <a href="mailto:info@nsccsrm.tech" className='text-[18px]'>nscc@srmist.edu.in</a>
+                        <a href="mailto:nscc@srmist.edu.in" className='text-[18px]'>nscc@srmist.edu.in</a>
                     </div>
 
                     <div className='flex flex-row items-center gap-2'>
