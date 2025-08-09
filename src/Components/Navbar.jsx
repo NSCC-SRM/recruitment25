@@ -24,11 +24,11 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { href: "#", label: "Home", icon: "🏠" },
-    { href: "#domains", label: "Domains", icon: "🎯" },
-    { href: "#community", label: "Community", icon: "👥" },
-    { href: "#timeline", label: "Timeline", icon: "📅" },
-    { href: "#faq", label: "FAQ", icon: "❓" }
+    { href: "#", label: "Home", icon: "" },
+    { href: "#domains", label: "Domains", icon: "" },
+    { href: "#community", label: "Community", icon: "" },
+    { href: "#timeline", label: "Timeline", icon: "" },
+    { href: "#faq", label: "FAQ", icon: "" }
   ];
 
   return (

@@ -121,12 +121,12 @@ const FAQ = () => {
               Can't find the answer you're looking for? Please reach out to our friendly team.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-gradient-to-r from-[#26E8E8] to-[#1a9b9b] hover:from-[#1a9b9b] hover:to-[#26E8E8] text-black font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nscc@srmist.edu.in" target='__blank'><button className="px-8 py-4 bg-gradient-to-r from-[#26E8E8] to-[#1a9b9b] hover:from-[#1a9b9b] hover:to-[#26E8E8] text-black font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Contact Us
-              </button>
-              <button className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-all duration-300 border border-white/20 hover:border-white/40">
+              </button></a>
+              {/* <button className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-all duration-300 border border-white/20 hover:border-white/40">
                 Join Discord
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
