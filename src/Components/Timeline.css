@@ -1,5 +1,5 @@
-
-.timeline{
+/* Timeline Component Styles */
+.timeline {
   color: black;
   padding: 5vh;
   display: flex;
@@ -8,19 +8,47 @@
   align-items: center;
 }
 
-
 .title {
   text-align: center;
   color: white;
   font-weight: 700;
   font-size: 5vh;
 }
-@media (min-width: 950px) and (max-width: 1000px) {
-  .title{
-    font-size: 6vw;
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .timeline {
+    padding: 3vh 2vh;
+  }
+  
+  .title {
+    font-size: 4vh;
   }
 }
 
+@media (max-width: 480px) {
+  .timeline {
+    padding: 2vh 1vh;
+  }
+  
+  .title {
+    font-size: 3.5vh;
+  }
+}
+
+/* Timeline item animations */
+.timeline-item {
+  transition: all 0.5s ease-in-out;
+}
+
+/* Ensure proper spacing on mobile */
+@media (max-width: 1024px) {
+  .timeline-item {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Legacy styles for compatibility */
 h3 {
   padding-top: 0.25em;
 }
@@ -45,7 +73,6 @@ h3 {
   border-radius: 5px;
   color: white;
 }
-
 
 @media only screen and (max-width: 1700px) {
   .vertical-timeline-element-date {

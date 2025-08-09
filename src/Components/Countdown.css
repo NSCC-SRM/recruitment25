@@ -1,79 +1,198 @@
 .countdown-container {
-    background: transparent;
-    color: white;
-    text-align: center;
-    padding: 20px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    border-radius: 15px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    max-width: 500px;
-    box-sizing: border-box;
+  background: transparent;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.countdown-header {
+  margin-bottom: 20px;
+}
+
+.countdown-title {
+  margin: 0;
+  letter-spacing: 3px;
+  font-size: clamp(16px, 3vw, 24px);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.timer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+  transition: transform 0.3s ease;
+}
+
+.timer-card:hover {
+  transform: translateY(-2px);
+}
+
+.timer-digits-container {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 8px;
+}
+
+.timer-digit {
+  background: linear-gradient(to bottom, #5ba2ba, #183d4b);
+  color: white;
+  padding: 12px 8px;
+  border-radius: 8px;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 700;
+  min-width: 40px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.timer-digit::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.timer-label {
+  color: white;
+  font-size: clamp(12px, 2.5vw, 16px);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+.time-up {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .countdown-container {
+    padding: 15px;
+    width: 95%;
+    top: 35%;
   }
-  
+
   .countdown-timer {
-    font-size: 2vh;
-    display: flex;
-    justify-content: center;
+    gap: 8px;
   }
-  
-  .timer-unit {
-    margin: 0 4px;
+
+  .timer-card {
+    min-width: 70px;
   }
-  
+
+  .timer-digit {
+    padding: 10px 6px;
+    min-width: 35px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown-container {
+    padding: 10px;
+    top: 30%;
+  }
+
+  .countdown-timer {
+    gap: 6px;
+  }
+
+  .timer-card {
+    min-width: 60px;
+  }
+
+  .timer-digit {
+    padding: 8px 4px;
+    min-width: 30px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+
   .timer-label {
-    color: white;
-    font-size: 20px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .countdown-container {
+    top: 25%;
   }
 
-  .abc{
-   height: 2vw; 
+  .countdown-timer {
+    gap: 4px;
   }
 
-  .timer-digits {
-    /* background-color: #56CAD1;  */
-    background: linear-gradient(to bottom, #5ba2ba, #183d4b);
-    color: #fff; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 2rem;
-    margin: 2px; 
-    display: inline-block;
-    justify-content: center;
-    align-items: center; 
-    padding-bottom: 55px;
-    height: 2vw;
+  .timer-card {
+    min-width: 55px;
   }
 
-  .setting{
-    display: flex;
-  }
-  
-  @media (max-width: 600px) {
-    .countdown-container {
-      padding: 15px;
-      font-size: 14px;
-    }
+  .timer-digit {
+    padding: 6px 3px;
+    min-width: 25px;
+    height: 40px;
+    font-size: 1rem;
   }
 
-  @media (max-width: 360px){
-    .timer-digits{
-      width: 3.5vh;
-      height: 5.5vh;
-      display: flex;
-      padding: 10px;
-      justify-content: center;
-      align-items: center; 
-    }
-    .timer-digits {
-      font-size: 1.5rem;
-    }
+  .timer-label {
+    font-size: 9px;
   }
+}
+
+/* Animation for countdown digits */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.timer-digit {
+  animation: pulse 2s infinite;
+}
+
+.timer-digit:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.timer-digit:nth-child(2) {
+  animation-delay: 0.5s;
+}
   
