@@ -99,9 +99,9 @@ export default function WhoWeAre() {
 
                         {/* CTA Button */}
                         <div className="pt-6">
-                            <button className="px-8 py-4 bg-gradient-to-r from-[#26E8E8] to-[#1a9b9b] hover:from-[#1a9b9b] hover:to-[#26E8E8] text-black font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                            <a href="https://chat.whatsapp.com/FhPMm8Q0e3OGQWmuP8bZUG?mode=ac_t" target='__blank'><button className="px-8 py-4 bg-gradient-to-r from-[#26E8E8] to-[#1a9b9b] hover:from-[#1a9b9b] hover:to-[#26E8E8] text-black font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                                 Join Our Community
-                            </button>
+                            </button></a>
                         </div>
                     </div>
 
