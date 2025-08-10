@@ -1,50 +1,100 @@
-# React + Vite
+# Newton School Coding Club (NSCC) – SRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![NSCC Logo](link-to-your-logo)
 
-Currently, two official plugins are available:
+> **Dive deep into real-world tech**  
+> **Learn beyond the curriculum**  
+> **Code with purpose, build with impact**  
+> **Join the developers of tomorrow**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-### Installation
+## 📌 About Us
 
-1. Clone the repository to your local machine:
+The **Newton School Coding Club (NSCC)** at SRM Institute of Science and Technology began in **November 2022** with a simple vision — to create a vibrant community where students can **code, create, and collaborate** beyond the classroom.  
 
-```
-git clone https://github.com/NSCC-SRM/recruitment24.git
-```
+In just a short time, we’ve become one of the most **active and impactful tech communities** on campus, connecting passionate developers, designers, and innovators from across disciplines.
 
-2. Navigate into the project directory:
+- **250+ Active Members** at SRM  
+- Reached **20,000+ SRM Students** & **15,000+ beyond campus**  
+- Strong digital presence with **5.5K+ Instagram** followers and **1K+ LinkedIn** followers  
+- Hosted **10+ major events** including hackathons, codefests, and ideathons  
+- Supported by **21+ sponsors** including Microsoft, Razorpay, Oracle, and J.P. Morgan  
 
-```
-cd recruitment24
-```
+---
 
-3. Install the necessary packages:
+## 🚀 Our Mission
+We aim to **empower students** to think, learn, and create like real-world developers.  
+We believe in:
+- **Learning beyond the curriculum** through hands-on projects
+- **Collaboration over competition** to foster innovation
+- **Impact-driven coding** that solves real problems
 
-```
-npm install
-```
+---
 
-4. Run the development server:
+## 🏆 Achievements
+- **68+ Core & Team Members** across multiple domains
+- **11+ Completed Projects** with real-world use cases
+- Hosted flagship events like **HackNova**, **CodeFest**, **Decode Hour**, **IdeaNova**, and **Code Rush**
 
-```
-npm start
-# OR 
-npm run dev
-# OR
-yarn dev
-```
+---
 
-### Branching
-1. Open your terminal or command prompt in your code editor.
-2. Create a new branch and switch to it.
-   ```
-   git checkout -b new-branch-name
-   ```
-3. Push the branch to GitHub:
-   ```
-   git push -u origin branch-name
-   ```
-Format for naming branch: ``` type/issue-id-short-description ```
+## 🛠 Our Domains
+We’re organized into specialized domains where members can thrive:
+
+### 💻 Tech
+Build innovative solutions, tackle coding challenges, and explore cutting-edge technologies.
+
+### 🎨 Creatives
+Design, create, and publish engaging content that reflects the club’s energy and culture.
+
+### 📢 Non-Tech
+Manage partnerships, organize events, and amplify NSCC’s voice on and off campus.
+
+---
+
+## 🎯 Flagship Events
+Some of our biggest initiatives include:
+
+- **HackNova** – A vibrant hackathon bringing together top talent to innovate.  
+- **CodeFest** – A two-day coding extravaganza pushing the boundaries of problem-solving.  
+- **Decode Hour** – A competitive codeathon attracting 600+ participants.  
+- **IdeaNova** – Ideathon where teams pitch creative solutions to real-world problems.  
+- **Code Rush** – High-energy coding competition with exciting prizes.
+
+---
+
+## 🤝 Our Sponsors
+We’re proud to have worked with **Microsoft, Razorpay, Oracle, J.P. Morgan, Newton School, Sabre**, and more — organizations that empower innovation and growth.
+
+---
+
+## 👥 Our Team
+A passionate team of **creators, coders, and doers** who turn ideas into impactful projects.  
+From leads to associates, every member contributes towards making NSCC a hub for tech enthusiasts.
+
+---
+
+## 📷 Gallery
+Check out moments from our events, workshops, and meetups on our [Instagram](https://instagram.com/nsccsrm) and [LinkedIn](https://linkedin.com/company/nsccsrm).
+
+---
+
+## 📬 Contact Us
+**Email:** info@nsccsrm.in  
+**Phone:** +91 6230931075 / +91 8789019185  
+**Location:**  
+Newton School Coding Club SRMIST  
+Department of Networking and Communications, School of Computing  
+SRM Institute of Science and Technology, Kattankulathur, Chennai – 603203  
+
+---
+
+### 🌐 Connect with Us
+- [Instagram](https://instagram.com/nsccsrm)
+- [LinkedIn](https://linkedin.com/company/nsccsrm)
+- [Website](https://nsccsrm.in)
+
+---
+
+> 💡 *NSCC is where tomorrow’s developers are built — today.*
