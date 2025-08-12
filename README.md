@@ -1,6 +1,6 @@
 # Newton School Coding Club (NSCC) – SRM
 
-![NSCC Logo](link-to-your-logo)
+![NSCC Logo](https://drive.google.com/thumbnail?id=1zbb-UtQjyDo-kre6ApTg6ohH3P25G8sS)
 
 > **Dive deep into real-world tech**  
 > **Learn beyond the curriculum**  
