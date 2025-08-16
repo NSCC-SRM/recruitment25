@@ -93,7 +93,7 @@ const HeroSection = () => {
               className="group relative px-12 py-5 bg-gradient-to-r from-[#26E8E8] to-[#1a9b9b] text-black font-bold text-xl rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#26E8E8]/25 luma-checkout--button"
               type="button"
               data-luma-action="checkout"
-              data-luma-event-id="evt-Uf3kMJqu4HN88NM"
+              data-luma-event-id="evt-FghC9mR1Gm6MceZ"
             >
               <span className="relative z-10">Join NSCC SRM</span>
               <div className="absolute inset-0 bg-gradient-to-r from-[#1a9b9b] to-[#26E8E8] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
