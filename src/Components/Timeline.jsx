@@ -70,15 +70,15 @@ const Timeline = () => {
               <div className="lg:hidden">
                 <div className="flex flex-col items-center">
                   {/* Step Number */}
-                  <div
-                    className={`w-8 h-8 bg-[#26E8E8]/20 border border-[#26E8E8]/50 rounded-full flex items-center justify-center text-[#26E8E8] font-bold text-sm transition-all duration-500 mb-4 ${
-                      visibleItems.includes(index)
-                        ? 'opacity-100 scale-100'
-                        : 'opacity-0 scale-0'
-                    }`}
-                  >
-                    {index + 1}
-                  </div>
+                    {/* <div
+                      className={`w-8 h-8 bg-[#26E8E8]/20 border border-[#26E8E8]/50 rounded-full flex items-center justify-center text-[#26E8E8] font-bold text-sm transition-all duration-500 mb-4 ${
+                        visibleItems.includes(index)
+                          ? 'opacity-100 scale-100'
+                          : 'opacity-0 scale-0'
+                      }`}
+                    >
+                      {index + 1}
+                    </div> */}
 
                   {/* Central Icon */}
                   <div
@@ -145,11 +145,11 @@ const Timeline = () => {
                     </div>
 
                     {/* Arrow */}
-                    <div
+                    {/* <div
                       className={`absolute top-8 w-6 h-6 bg-black border-2 border-[#26E8E8]/30 transform rotate-45 ${
                         index % 2 === 0 ? '-right-3' : '-left-3'
                       }`}
-                    ></div>
+                    ></div> */}
                   </div>
                 </div>
 
@@ -168,7 +168,7 @@ const Timeline = () => {
                 </div>
 
                 {/* Step Number */}
-                <div
+                {/* <div
                   className={`absolute ${
                     index % 2 === 0 ? 'right-4' : 'left-4'
                   } top-4 w-8 h-8 bg-[#26E8E8]/20 border border-[#26E8E8]/50 rounded-full flex items-center justify-center text-[#26E8E8] font-bold text-sm transition-all duration-500 ${
@@ -178,7 +178,7 @@ const Timeline = () => {
                   }`}
                 >
                   {index + 1}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
