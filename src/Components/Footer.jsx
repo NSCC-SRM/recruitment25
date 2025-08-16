@@ -55,7 +55,7 @@ export default function Footer() {
                     
                     {/* Quick Links */}
                     <div className="space-y-4 md:space-y-5 order-1 text-center items-center md:items-start flex flex-col content-center justify-center">
-                        <h4 className="text-base md:text-lg font-semibold text-[#26E8E8] md:ml-36">Quick Links</h4>
+                        <h4 className="text-base md:text-lg font-semibold text-[#26E8E8] md:ml-16 lg:ml-24 xl:ml-36">Quick Links</h4>
                         <div className="space-y-3 md:space-y-4 w-full">
                             {quickLinks.map((link, index) => (
                                 <a
