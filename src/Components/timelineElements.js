@@ -31,7 +31,7 @@ let timelineElements = [
       id: 5,
       title: "To be declared",
       description:
-        "Results Declared",
+        "Results",
       img: 'speak'
     },
   ];

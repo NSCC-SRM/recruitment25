@@ -7,28 +7,28 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "What is NSCC?",
-      answer: "NSCC (Newton School of Coding Club) is a vibrant community at SRM where technology and innovation converge. With three specialized domains—Tech, Non-Tech, and Creatives—the club offers a platform for students to enhance their skills, collaborate on projects, and explore the cutting edge of coding."
+      question: "What is NSCC SRM?",
+      answer: "NSCC SRM (Newton School of Coding Club SRM) is a vibrant community at SRM where technology and innovation converge. With three specialized domains—Tech, Non-Tech, and Creatives—the club offers a platform for students to enhance their skills, collaborate on projects, and explore the cutting edge of coding."
     },
     {
-      question: "What can one hope to gain from being a member of NSCC?",
-      answer: "By joining NSCC, members gain advanced coding skills, engage in hands-on experiences through hackathons and ideathons, and connect with senior experts for valuable mentorship. The club also opens doors to career opportunities and fosters personal growth in the tech field."
+      question: "What can one hope to gain from being a member of NSCC SRM?",
+      answer: "By joining NSCC SRM, members gain advanced coding skills, engage in hands-on experiences through hackathons and ideathons, and connect with senior experts for valuable mentorship. The club also opens doors to career opportunities and fosters personal growth in the tech field."
     },
     {
       question: "How is the club structured, and what are the roles and responsibilities of its members?",
-      answer: "NSCC's structure includes Members, Associates, Associate Directors, Domain Directors, Joint Secretary, Secretary, Board Members, Founder, and Faculty Incharge. Each role is essential, with responsibilities ranging from coding and event organization to leadership and mentoring. For detailed insights, visit NSCC SRM's Instagram or website."
+      answer: "NSCC SRM's structure includes Members, Associates, Associate Directors, Domain Directors, Joint Secretary, Secretary, Board Members, Founder, and Faculty Incharge. Each role is essential, with responsibilities ranging from coding and event organization to leadership and mentoring. For detailed insights, visit NSCC SRM's Instagram or website."
     },
     {
-      question: "What are the primary goals and objectives of the NSCC?",
-      answer: "The primary objective of NSCC is to create a supportive environment that nurtures innovation and learning. The club focuses on keeping students updated with technology, offering real-world problem-solving, and excelling in coding and computer science to develop future leaders."
+      question: "What are the primary goals and objectives of the NSCC SRM?",
+      answer: "The primary objective of NSCC SRM is to create a supportive environment that nurtures innovation and learning. The club focuses on keeping students updated with technology, offering real-world problem-solving, and excelling in coding and computer science to develop future leaders."
     },
     {
       question: "What kind of non-technical skills are emphasized within the club?",
-      answer: "NSCC emphasizes the development of non-technical skills such as teamwork, leadership, project management, communication, and creative problem-solving. These skills are crucial for effective collaboration and success in both club activities and professional careers."
+      answer: "NSCC SRM emphasizes the development of non-technical skills such as teamwork, leadership, project management, communication, and creative problem-solving. These skills are crucial for effective collaboration and success in both club activities and professional careers."
     },
     {
       question: "How does the club support new members in getting acclimated and involved?",
-      answer: "NSCC supports new members through orientation sessions, mentorship from senior experts, and opportunities to participate in events and projects. This approach ensures that newcomers quickly integrate into the club and actively contribute to its community."
+      answer: "NSCC SRM supports new members through orientation sessions, mentorship from senior experts, and opportunities to participate in events and projects. This approach ensures that newcomers quickly integrate into the club and actively contribute to its community."
     }
   ];
 
