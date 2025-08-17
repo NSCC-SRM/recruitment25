@@ -90,7 +90,14 @@ const HeroSection = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
             <button
-              className="group relative px-12 py-5 bg-gradient-to-r from-[#26E8E8] to-[#1a9b9b] text-black font-bold text-xl rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#26E8E8]/25 luma-checkout--button"
+              className="group relative 
+                          px-6 py-3 sm:px-8 sm:py-4 lg:px-12 lg:py-5 
+                          bg-gradient-to-r from-[#6a11cb] to-[#2575fc] 
+                          text-white font-bold text-base sm:text-lg lg:text-xl 
+                          rounded-2xl overflow-hidden 
+                          transition-all duration-300 
+                          hover:scale-105 hover:shadow-2xl 
+                        "
               type="button"
               data-luma-action="checkout"
               data-luma-event-id="evt-FghC9mR1Gm6MceZ"
