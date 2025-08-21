@@ -6,6 +6,7 @@ import FAQ from './Components/FAQ'
 import Timeline from './Components/Timeline'
 import Footer from './Components/Footer'
 import WhoWeAre from './Components/WhoWeAre/WhoWeAre'
+import Popup from './Components/Popup'
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black">
+      {/* Popup Component */}
+      <Popup />
+
       {/* Navigation */}
       <Navbar />
       
