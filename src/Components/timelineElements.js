@@ -1,37 +1,37 @@
 let timelineElements = [
     {
       id: 1,
-      title: "Date 17/09/2025",
+      title: "18th August, 2025",
       description:
         "Application Starts",
       img: 'file'
     },
     {
       id: 2,
-      title: "To be declared",
+      title: "4th September, 2025",
       description:
-        "Task Dispatch",
+        "Task Release",
       img: 'hand'
     },
     {
       id: 3,
-      title: "To be declared",
+      title: "4th to 11th September, 2025",
       description:
-        "Submission Deadline",
+        "Task Submission Window (7 days)",
       img: 'check'
     },
     {
       id: 4,
-      title: "To be declared",
+      title: "11th September, 2025",
       description:
-        "Interview starts",
+        "Submission Deadline",
       img: 'arrow'
     },
     {
       id: 5,
-      title: "To be declared",
+      title: "15th to 18th September, 2025",
       description:
-        "Results",
+        "Interviews",
       img: 'speak'
     },
   ];
